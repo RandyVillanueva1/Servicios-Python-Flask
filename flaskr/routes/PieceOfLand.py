@@ -8,7 +8,7 @@ from models.entities.Owner import Owner
 # Models
 from models.PieceOfLandModel import PieceOfLandModel
 
-predio = Blueprint('predio', __name__, url_prefix='/api/predio')
+predio = Blueprint('predio', __name__,)
 
 @predio.route('/<id_propietario>')
 def get_pieceOfLands(id_propietario):

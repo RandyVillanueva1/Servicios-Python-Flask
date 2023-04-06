@@ -5,7 +5,7 @@ from models.entities.User import User
 # Models
 from models.UserModel import UserModel
 
-usuario = Blueprint('usuario', __name__, url_prefix='/api/usuario')
+usuario = Blueprint('usuario', __name__,)
 
 
 @usuario.route('/')

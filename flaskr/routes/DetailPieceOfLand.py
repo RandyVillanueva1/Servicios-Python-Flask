@@ -7,7 +7,7 @@ from models.entities.PieceOfLand import PieceOfLand
 # Models
 from models.DetailPieceOfLandModel import DetailPieceOfLandModel
 
-detallePredio = Blueprint('detallePredio', __name__, url_prefix='/api/detallePredio')
+detallePredio = Blueprint('detallePredio', __name__,)
 
 @detallePredio.route('/<id_predio>')
 def get_detailPieceOfLands(id_predio):

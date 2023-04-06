@@ -8,7 +8,7 @@ from models.entities.User import User
 # Models
 from models.OwnerModel import OwnerModel
 
-propietario = Blueprint('propietario', __name__, url_prefix='/api/propietario')
+propietario = Blueprint('propietario', __name__,)
 
 
 @propietario.route('/<id_usuario>')
